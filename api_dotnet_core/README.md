@@ -28,11 +28,12 @@ dotnet new webapi -o "nameofproject"
 ```
 
 * nameofproject 
-Enter the name of your project 
 
-Informez le nom de votre projet 
+	Enter the name of your project 
 
-Indique o nome do seu projeto
+	Informez le nom de votre projet 
+
+	Indique o nome do seu projeto
 
 ![Project](./images/createproject.png)
 
@@ -55,3 +56,13 @@ dotnet run
 ```
 
 ![Run Project](./images/dotnetrunproject.png)
+
+6. 	Open Postman application or other platform for API Development
+	Ouvrez l'application Postman ou une autre application pour tester votre API.
+	Abrir o Postman ou uma outra aplicação para testar a API.
+	
+```
+https://localhost:5001/WeatherForecast
+```
+
+> Postman Download: https://www.postman.com/
