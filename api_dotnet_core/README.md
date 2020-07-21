@@ -2,14 +2,12 @@
 
 ## Create a new project 
 
-**1.**	```diff 
- - Launch Visual Code and open a Terminal
+**1.**	Launch Visual Code and open a Terminal
 
- + Ouvrez le Visual Code et allez dans l'option "Terminal"
+	Ouvrez le Visual Code et allez dans l'option "Terminal"
 
- ! Abra o Visual Code e vá na opção "Terminal"
-```
-
+	Abra o Visual Code e vá na opção "Terminal"
+	
 ![Terminal](./images/terminal.png)
 
 **2.** 	Go to folder of your project
