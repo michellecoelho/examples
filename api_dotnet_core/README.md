@@ -3,14 +3,22 @@
 ## Create a new project 
 
 **1.** 
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 
-<span style="color:blue"> Launch Visual Code and open a Terminal </span>
+### Launch Visual Code and open a Terminal
 
 ### Ouvrez le Visual Code et allez dans l'option "Terminal" {: .gitlab-orange}
 
 ### Abra o Visual Code e vá na opção "Terminal"
 	
 ![Terminal](./images/terminal.png)
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
 
 **2.** 	Go to folder of your project
 
