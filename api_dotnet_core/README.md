@@ -3,11 +3,12 @@
 ## Create a new project 
 
 **1.** 
-	Launch Visual Code and open a Terminal {: .gitlab-purple} 
 
-	Ouvrez le Visual Code et allez dans l'option "Terminal" {: .gitlab-orange}
+### Launch Visual Code and open a Terminal {: .gitlab-purple} 
 
-	Abra o Visual Code e vá na opção "Terminal"
+### Ouvrez le Visual Code et allez dans l'option "Terminal" {: .gitlab-orange}
+
+### Abra o Visual Code e vá na opção "Terminal"
 	
 ![Terminal](./images/terminal.png)
 
