@@ -4,7 +4,7 @@
 
 **1.** 
 
-### Launch Visual Code and open a Terminal {: .gitlab-purple} 
+<span style="color:blue"> Launch Visual Code and open a Terminal </span>
 
 ### Ouvrez le Visual Code et allez dans l'option "Terminal" {: .gitlab-orange}
 
