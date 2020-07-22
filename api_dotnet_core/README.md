@@ -29,7 +29,7 @@ dotnet new webapi -o "nameofproject"
 ```
 
 ---
-nameofproject
+> nameofproject
 
 ```diff
 # Enter the name of your project 
@@ -126,12 +126,14 @@ dotnet add package Microsoft.EntityFrameworkCore --version 3.1.6
 + Coloque seus modelos dentro da pasta "Models" e acrescente a referência no arquivo BDContext.
 ```
 
+---
  > Example: 
+```diff	
+# public DbSet<NameModel> name_of_table { get; set; }
+! public DbSet<NomduModel> nom_de_la_table { get; set; }
++ public DbSet<NomedoModel> nome_da_tabela { get; set; }
 ```	
-public DbSet<NameModel> name_of_table { get; set; }
-public DbSet<NomduModel> nom_de_la_table { get; set; }
-public DbSet<NomedoModel> nome_da_tabela { get; set; }
-```	
+---
 
 ```diff
 # Open your file Startup.cs and add your database connection.
@@ -155,7 +157,7 @@ services.AddCors();
 ```	
 public void ConfigureServices(IServiceCollection services)
 {
-var connection = @"Host=127.0.0.1;Port=7000;Database=nameofdb;User Id=*****;Password=*****";
+var connection = @"Host=localhost;Port=6551;Database=postgres;User Id=postgres;Password=password123";
 services.AddDbContext<BDContext>(options => options.UseNpgsql(connection));
 services.AddControllers();
 services.AddCors();
@@ -217,3 +219,9 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     });
 }
 ```	
+
+```diff
+# Add a new file Controller in a folder "Controllers".
+! Ajouter un nouveau ficher Controller dans le dossier "Controllers".
++ Adicione um noveau arquivo na pasta "Controllers".
+```
