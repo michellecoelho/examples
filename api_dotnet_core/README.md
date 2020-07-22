@@ -3,27 +3,26 @@
 ## Create a new project 
 
 ```diff
-**1.** 
-+ Launch Visual Code and open a Terminal
+# Launch Visual Code and open a Terminal
 ! Ouvrez le Visual Code et allez dans l'option "Terminal"
-# Abra o Visual Code e vá na opção "Terminal"
++ Abra o Visual Code e vá na opção "Terminal"
 ```
 
 ![Terminal](./images/terminal.png)
 
-**2.** 	Go to folder of your project
-
-	Allez sur le dossier de votre projet
-
-	Abra a pasta do seu projeto
+```diff
+# Go to folder of your project
+! Allez sur le dossier de votre projet
++ Abra a pasta do seu projeto
+```
 
 ![Folder](./images/folderproject.png)
 
-**3.** 	Run the command
-
-	Éxecutez la command ci-dessous
-
-	Execute o comando 
+```diff
+# Run the command
+! Éxecutez la command ci-dessous
++ Execute o comando 
+```
 
 ```
 dotnet new webapi -o "nameofproject"
@@ -31,27 +30,29 @@ dotnet new webapi -o "nameofproject"
 
 > nameofproject 
 
-	Enter the name of your project 
-
-	Informez le nom de votre projet 
-
-	Indique o nome do seu projeto
+```diff
+# Enter the name of your project 
+! Informez le nom de votre projet 
++ Indique o nome do seu projeto
+```
 
 ![Project](./images/createproject.png)
 
-**4.** 	Open your project with Visual Code
-	
-	Ouvrez votre projet avec Visual Code
-	
-	Abra o projeto com o Visual Code
+```diff
+# Open your project with Visual Code
+! Ouvrez votre projet avec Visual Code
++ Abra o projeto com o Visual Code
+```
 
 ![OpenProject](./images/openproject.png)
 
 ![Project Visual Code](./images/vscode.png)
 
-**5.** 	Run your project for the first time
-	
-	Éxecutez votre projet pour la première fois
+```diff
+# Run your project for the first time
+! Éxecutez votre projet pour la première fois
++ Execute seu projeto pela primeira vez
+```
 	
 ```
 dotnet run
@@ -59,9 +60,11 @@ dotnet run
 
 ![Run Project](./images/dotnetrunproject.png)
 
-**6.** 	Open Postman application or other platform for API Development
-	Ouvrez l'application Postman ou une autre application pour tester votre API.
-	Abrir o Postman ou uma outra aplicação para testar a API.
+```diff
+# Open Postman application or other platform for API Development
+! Ouvrez l'application Postman ou une autre application pour tester votre API.
++ Abrir o Postman ou uma outra aplicação para testar a API.
+```
 	
 ```
 https://localhost:5001/WeatherForecast
@@ -74,6 +77,11 @@ https://localhost:5001/WeatherForecast
 
 > This example is based on https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-code
 
+```diff
+# 
+! 
++ 
+```
 **1.** 	Create a new folder "Models" and a new file "BDContext.cs"
 
 		Créer un nouveau dossier "Models" et un nouveau fichier "BDContext.cs"
